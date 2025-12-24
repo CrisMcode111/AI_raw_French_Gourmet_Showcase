@@ -49,11 +49,28 @@ These are orchestrated by an LLM layer that:
 - generates a structured and explainable recipe
 
 *See architecture diagram below.*
+User Request
+     ↓
+LLM Orchestrator
+     ↓
+ ┌───────────────┐
+ │ RAG-TECHNICAL │
+ └───────────────┘
+     ↓
+ ┌───────────────┐
+ │ RAG-RECIPES   │
+ └───────────────┘
+     ↓
+Recipe Generation
+ + Explainability
 
 ---
 
 ## Demo
 **Video demonstration:** *(link to Loom or Google Drive)*
+
+(https://drive.google.com/file/d/18NPHOcl7LdWcO_sjUX15ML-sPlSNbuPk/view?usp=sharing)
+(Screen recording of the mobile demo)
 
 The demo shows:
 - how a user enters a culinary request
