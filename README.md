@@ -47,6 +47,9 @@ These are orchestrated by an LLM layer that:
 - interprets the user request
 - retrieves relevant knowledge
 - generates a structured and explainable recipe
+## System Architecture
+
+![Architecture](assets/architecture.drawio.png)
 
 *See architecture diagram below.*
 User Request
