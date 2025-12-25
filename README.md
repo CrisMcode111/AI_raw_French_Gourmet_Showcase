@@ -53,6 +53,17 @@ These are orchestrated by an LLM layer that:
 
 ---
 
+## Why not just a generic LLM?
+
+Generic language models can generate recipe-like text, but they:
+- ignore raw food constraints and culinary feasibility
+- lack texture and process reasoning
+- cannot reliably preserve gastronomic identity
+
+AI Raw French Gourmet is designed as a **knowledge-driven system**, where culinary rules and curated examples guide generation, rather than relying on free-form text prediction.
+
+---
+
 ## Demo
 **Video demonstration:** *(link to Loom or Google Drive)*
 
@@ -86,9 +97,14 @@ The demo shows:
 ---
 
 ## Project Status
+
 - Core system: functional (private repository)
-- Public showcase: documentation & demo
+- Public showcase: documentation and demo
 - Ongoing research and refinement
+
+This repository is a **public technical showcase**.
+
+The core source code, datasets, and detailed implementation are maintained in a private repository, as the project is intended for further research and future productization.
 
 ---
 
@@ -100,6 +116,14 @@ The demo shows:
 ---
 
 ## About
-This project was developed as part of an applied AI bootcamp and personal research into **AI-driven culinary systems**.
 
-For collaboration, research or professional inquiries, feel free to connect via GitHub or LinkedIn.
+AI Raw French Gourmet explores how applied AI systems can reason about food, texture, and transformation, beyond simple text generation.
+
+The project sits at the intersection of:
+- applied AI and retrieval-based systems,
+- culinary knowledge representation,
+- raw, plant-based gastronomy.
+
+This project was developed as part of an applied AI bootcamp, alongside personal research into **AI-driven culinary systems**.
+
+For collaboration, research, or professional inquiries, feel free to connect via GitHub or LinkedIn.
