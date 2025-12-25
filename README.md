@@ -49,23 +49,7 @@ These are orchestrated by an LLM layer that:
 - generates a structured and explainable recipe
 ## System Architecture
 
-![Architecture](assets/architecture.drawio.png)
-
-*See architecture diagram below.*
-User Request
-     ↓
-LLM Orchestrator
-     ↓
- ┌───────────────┐
- │ RAG-TECHNICAL │
- └───────────────┘
-     ↓
- ┌───────────────┐
- │ RAG-RECIPES   │
- └───────────────┘
-     ↓
-Recipe Generation
- + Explainability
+![Architecture](assets/architecture.png)
 
 ---
 
